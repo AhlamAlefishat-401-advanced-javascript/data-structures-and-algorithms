@@ -8,7 +8,6 @@ Write a function called BinarySearch which takes in 2 parameters: a sorted array
 
 ## Approach & Efficiency
 for loop are used with no built-in function
- {\displaystyle O(\log n)}O(\log n)
 
 ## Solution
-![](../assets/array-search.jpg)
+![](../assets/binarySearch.jpg)
