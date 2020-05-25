@@ -6,4 +6,4 @@ Write a function called (*insertShiftArray*) which takes in an array and the val
 ## Approach & Efficiency
 Two four loops , with no built-in methods 
 ## Solution
-![](./assets/array-shift.jpg)
+![](../assets/arrayShift.jpg)
