@@ -18,4 +18,4 @@
 - O(n)
 
 ## Solution
-![](.././assets/linked-list.jpg)
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/linked-list.jpg)
