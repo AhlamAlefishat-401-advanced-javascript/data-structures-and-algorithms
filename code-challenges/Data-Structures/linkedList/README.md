@@ -1,7 +1,7 @@
 # Singly Linked List
 
 
-## Challenge
+## Challenge:
 - Create a Node class that has 2 properties (value / next)
 - LinkedList class, include a head property --> inside this class :
 - - insert() method to insert a node onto the head of the linked list
@@ -18,4 +18,4 @@
 - O(n)
 
 ## Solution
-![](../assets/linked-list.jpg)
+![](.././assets/linked-list.jpg)

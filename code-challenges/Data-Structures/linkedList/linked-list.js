@@ -1,52 +1,52 @@
 class Node {
-    constructor(data) {
-        this.value = data;
-        this.next = null;
+  constructor(data) {
+    this.value = data;
+    this.next = null;
 
-    }
+  }
 
 }
 
 class linkedList {
-    constructor() {
-        this.head = null;
+  constructor() {
+    this.head = null;
 
+  }
+
+  insert(value='') {
+    let newNode = new Node(value);
+
+    if (!this.head) {
+      this.head = newNode;
+      return this;
+    }
+    let current = this.head;
+    while(current.next){
+      current = current.next;
     }
 
-    insert(value='') {
-        let newNode = new Node(value);
+    current.next = newNode;
+    return this;
 
-        if (!this.head) {
-            this.head = newNode;
-            return this;
-        }
-        let current = this.head;
-        while(current.next){
-            current = current.next;
-        }
-
-        current.next = newNode;
-        return this;
-
+  }
+  includes(value) {
+    let current = this.head;
+    while (current) {
+      if (current.data === value) {
+        return true;
+      }
+      current = current.next;
     }
-    includes(value) {
-        let current = this.head;
-        while (current) {
-            if (current.data === value) {
-                return true;
-            }
-            current = current.next;
-        }
-        return false;
-    }
+    return false;
+  }
 
-toString(){
+  toString(){
     //"{ a } -> { b } -> { c } -> NULL";
     let current = this.head;
     let str = `{ ${current.value} }`;
     while(current.next){
-        current = current.next;
-        str += ` -> { ${current.value} }`;
+      current = current.next;
+      str += ` -> { ${current.value} }`;
      
     }
     return str + ' -> NULL ';
