@@ -18,4 +18,4 @@
 - O(n)
 
 ## Solution
-![](../assets/linked-list.jpg)
+![](./../assets/linked-list.jpg)
