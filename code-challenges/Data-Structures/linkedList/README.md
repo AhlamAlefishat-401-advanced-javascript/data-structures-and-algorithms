@@ -9,6 +9,11 @@
 - - toString() method to return string representing all the values in the Linked List formatted as:
 "{ a } -> { b } -> { c } -> NULL"
 
+- - .append(value) method  which adds a new node with the given value to the end of the list
+- - .insertBefore(value, newVal) ,ethod which add a new node with the given newValue immediately before the first value node
+- - .insertAfter(value, newVal) method  which add a new node with the given newValue immediately after the first value node
+
+
 ## Approach & Efficiency
 - *The approach*
 - two classes
@@ -18,4 +23,4 @@
 - O(n)
 
 ## Solution
-![](./../assets/linked-list.jpg)
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/assets/insertion.jpg)
