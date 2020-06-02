@@ -13,6 +13,7 @@
 - - .insertBefore(value, newVal) ,ethod which add a new node with the given newValue immediately before the first value node
 - - .insertAfter(value, newVal) method  which add a new node with the given newValue immediately after the first value node
 
+- - Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
 
 ## Approach & Efficiency
 - *The approach*
@@ -27,3 +28,4 @@
 
 ![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/insertion.jpg)
 
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/search.jpg)
