@@ -8,6 +8,7 @@
 - - includes() method to see if a specific value in the linked list
 - - toString() method to return string representing all the values in the Linked List formatted as:
 "{ a } -> { b } -> { c } -> NULL"
+- - Write a method for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list. 
 
 ## Approach & Efficiency
 - *The approach*
@@ -18,4 +19,4 @@
 - O(n)
 
 ## Solution
-![](./../assets/linked-list.jpg)
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/search.jpg)
