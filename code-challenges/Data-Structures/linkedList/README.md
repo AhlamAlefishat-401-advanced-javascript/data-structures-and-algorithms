@@ -1,7 +1,7 @@
 # Singly Linked List
 
 
-## Challenge
+## Challenge:
 - Create a Node class that has 2 properties (value / next)
 - LinkedList class, include a head property --> inside this class :
 - - insert() method to insert a node onto the head of the linked list
@@ -23,4 +23,8 @@
 - O(n)
 
 ## Solution
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/linked-list.jpg)
+
 ![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/assets/insertion.jpg)
+
+
