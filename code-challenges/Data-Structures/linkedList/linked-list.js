@@ -8,7 +8,7 @@ class Node {
 
 }
 
-class LinkedList{
+class LinkedList {
   constructor() {
     this.head = null;
 
@@ -52,71 +52,75 @@ class LinkedList{
     return str + ' -> NULL ';
   }
 
-  insertBefore(value, newVal){
+  insertBefore(value, newVal) {
     let foundVal = false;
     let current = this.head;
-    if(value === current.value){
+    if (value === current.value) {
       let addBeforeFirstNode = new Node(newVal);
       addBeforeFirstNode.next = this.head;
       this.head = addBeforeFirstNode;
-    }else{
-      while(current.next !=null && !foundVal){
-        if( value === current.next.value){
+    } else {
+      while (current.next != null && !foundVal) {
+        if (value === current.next.value) {
           let addBeforeFirstNode = new Node(newVal);
           addBeforeFirstNode.next = current.next;
           current.next = addBeforeFirstNode;
           foundVal = true;
-        }else{
+        } else {
           current = current.next;
         }
       }
       return this;
     }
   }
-  insertAfter(value, newVal){
+  insertAfter(value, newVal) {
     let foundVal = false;
     let current = this.head;
-    if(value === current.value){
+    if (value === current.value) {
       this.append(newVal);
-    }else { 
-      while(current && ! foundVal){
-        if(value == current.value){
+    } else {
+      while (current && !foundVal) {
+        if (value == current.value) {
           let addAfterFirstNode = new Node(newVal);
           addAfterFirstNode.next = current.next;
           current.next = addAfterFirstNode;
           foundVal = true;
-        }else{
+        } else {
           current = current.next;
         }
       }
     }
     return this;
   }
-  kthFromEnd(k){
 
-    let  listi = this.head ;
+
+
+  kthFromEnd(k) {
     let count = 0;
+    if ((typeof (k) === 'number') && k >= 0) {
+      if (this.head) {
+        count++;
+        let current = this.head;
+        let newPos = this.head;
+        while (current.next) {
+          current = current.next;
+          count++;
+        }
+        for (let i = 0; i < (count - k - 1); i++) {
+          newPos = newPos.next;
+        }
+        if ((count - k - 1) < 0) {
+          return 'accept';
+        }
+        return newPos.value;
 
-    while (listi != null) {
-      count ++;
-      listi = listi.next;
+      } else {
+        return 'EMPTY';
+      }
+    } else {
+      return 'False';
     }
-    let length = count;
-
-    if (k < 0 || k >= length) {
-      return null;
-    }
-
-    let pos = length - k;
-    let ctr = 1;
-    let current = this.head;
-    while(current != null && ctr < pos ){
-      current=current.next;
-      ctr += 1 ;
-    }
-    return current.value;
   }
-
 }
 
 let linkedListInsertions = new LinkedList();
@@ -126,5 +130,5 @@ linkedListInsertions.append(8);
 linkedListInsertions.append(2);
 
 console.log(linkedListInsertions.kthFromEnd(0));
-module.exports.LinkedList= LinkedList;
+module.exports = LinkedList;
 
