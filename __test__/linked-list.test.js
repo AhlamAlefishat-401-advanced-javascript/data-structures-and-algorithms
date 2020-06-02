@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../code-challenges/Data-Structures/linkedList/linked-list.js');
+const LinkedList = require('../code-challenges/Data-Structures/linkedList/linked-list.js').LinkedList;
 
 describe('linkList Module', () => {
   const linked = new LinkedList();

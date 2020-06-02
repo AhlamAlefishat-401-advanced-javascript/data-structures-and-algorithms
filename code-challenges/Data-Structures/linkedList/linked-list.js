@@ -129,6 +129,6 @@ linkedListInsertions.append(3);
 linkedListInsertions.append(8);
 linkedListInsertions.append(2);
 
-console.log(linkedListInsertions.kthFromEnd(0));
-module.exports = LinkedList;
+// console.log(linkedListInsertions.kthFromEnd(0));
+module.exports.LinkedList = LinkedList;
 
