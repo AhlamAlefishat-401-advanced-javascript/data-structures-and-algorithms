@@ -14,3 +14,5 @@ Linked list    |[Linked-list](https://github.com/AhlamAlefishat-401-advanced-jav
 Merge two linked lists |[Merge-lists](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/Data-Structures/ll-merge)
 -------------- |-------------
 Stacks and Queues |[Stacks-and-queues](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/stacksAndQueues)
+--------------- | ------------------
+Queues Stacks with | [queue-with-stacks](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/queue-with-stacks)
