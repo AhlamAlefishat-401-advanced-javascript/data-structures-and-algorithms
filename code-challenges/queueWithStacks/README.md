@@ -13,7 +13,15 @@
 
 
 ## Big (O)
-O(1)
+- Time O(1)
+
+- Space O(n)
+
+- Peek : O(1)
+- isEmpty : O(1)
+- enqueue : O(1)
+- dequeue : Time O(2) <-- (pop then push) & Space O(n)
+
 
 ## Solution
 ### UML
