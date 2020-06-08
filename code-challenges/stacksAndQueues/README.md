@@ -18,8 +18,20 @@ Queues: is a liner data structure or FIFO(First In First Out
 - isEmpty(): returns a boolean indicating whether or not the queue is empty.
 
 ## Big (O)
-O(1)
+- Time O(1)
+
+- Space O(n)
+###Stacks
+- push(value) --> O(1)
+- pop() ---> O(1)
+- peek() --> O(1)
+- IsEmpty() --> O(1)
+###Queues
+- enqueue(value) --> O(1)
+- dequeue() --> O(1)
+- peek() --> O(1)
+- isEmpty() --> O(1)
 
 ## Solution
 ### UML
-![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/stacksandqueues)
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/stacksandqueues.jpg)
