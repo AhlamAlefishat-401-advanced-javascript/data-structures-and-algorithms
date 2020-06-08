@@ -17,4 +17,4 @@ O(1)
 
 ## Solution
 ### UML
-![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/queueswithstacks)
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/queueswithstacks.jpg)
