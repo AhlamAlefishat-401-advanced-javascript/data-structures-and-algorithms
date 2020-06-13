@@ -21,5 +21,5 @@ Multi Bracket Validation |[multi-bracket-validation](https://github.com/AhlamAle
 ----------------- | -----------------------
 Fifo Animal Shelter| [fifo-animal-shelter](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/fifoAnimalShelter)
 ----------------- | -----------------------
-Multi Bracket Validation |[multi-bracket-validation](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/MultiBracketValidation)
+
 ----------------- | -----------------------
