@@ -16,3 +16,6 @@ Merge two linked lists |[Merge-lists](https://github.com/AhlamAlefishat-401-adva
 Stacks and Queues |[Stacks-and-queues](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/stacksAndQueues)
 --------------- | ------------------
 Queues Stacks with | [queue-with-stacks](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/queue-with-stacks)
+----------------- | -----------------------
+Fifo Animal Shelter| [fifo-animal-shelter](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/fifoAnimalShelter)
+----------------- | -----------------------
