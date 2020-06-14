@@ -84,6 +84,7 @@ console.log(queue.isEmpty());
 module.exports={
   Stack,
   Queue,
+  Node,
 }
 ;
 

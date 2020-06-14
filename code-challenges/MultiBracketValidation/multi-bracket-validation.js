@@ -24,11 +24,12 @@ function multiBracketValidation(input){
 }
 
 
-console.log( multiBracketValidation('{}'));//true
-console.log( multiBracketValidation('{}(){}'));//true
-console.log( multiBracketValidation('()[[Extra Characters]]'));//true
-console.log( multiBracketValidation('(){}[[]]'));//true
-console.log( multiBracketValidation('{}{Code}[Fellows](())'));//true
-console.log( multiBracketValidation('[({}]'));//false
-console.log( multiBracketValidation('(]('));//false
-console.log( multiBracketValidation('{(})'));//false
+// console.log( multiBracketValidation('{}'));//true
+// console.log( multiBracketValidation('{}(){}'));//true
+// console.log( multiBracketValidation('()[[Extra Characters]]'));//true
+// console.log( multiBracketValidation('(){}[[]]'));//true
+// console.log( multiBracketValidation('{}{Code}[Fellows](())'));//true
+// console.log( multiBracketValidation('[({}]'));//false
+// console.log( multiBracketValidation('(]('));//false
+// console.log( multiBracketValidation('{(})'));//false
+console.log( multiBracketValidation(')('));
