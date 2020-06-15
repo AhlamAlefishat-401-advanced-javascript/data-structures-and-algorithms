@@ -140,3 +140,4 @@ binarySearchTree.add(70);
 binarySearchTree.add(23);
 console.log(binarySearchTree.toString());
 console.log(binarySearchTree.contains(40));
+
