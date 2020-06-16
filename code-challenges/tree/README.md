@@ -13,5 +13,11 @@
 - * contains(value)
 returns a boolean indicating whether or not the value is in the tree at least once.
 ## Approach & Efficiency
-- * add(value):O(n)
-- * contains(value):O(n)
+- * add(value): O(n)
+- * contains(value): O(n)
+
+## UML tree
+
+## UML for Code Challenge 17
+
+![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/breadth.jpg)
