@@ -72,7 +72,22 @@ class BinaryTree{
     }
 
   }
+  findMaximumValue() {
+    var max = 0;
+    const _traversal = (node) => {
+      if(max < node.value) max = node.value;
+      if (node.left) _traversal(node.left);
+      if (node.right) _traversal(node.right);
+    };
+    _traversal(this.root);
+    return max;
+
+
+  }
+
 }
+
+  
 class BinarySearchTree{
   constructor(){
     this.root=null;
