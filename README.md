@@ -25,4 +25,10 @@ Tree| [tree](https://github.com/AhlamAlefishat-401-advanced-javascript/data-stru
 ----------------- | -----------------------
 Fizz Buzz Tree | [fizz-buzz-tree](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/fizzBuzzTree)
 ----------------- | -----------------------
+
+Merge sort | [merge-sort](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/merge-sort)
+----------------- | -----------------------
+
+
 Insertion sort | [insertion-sort](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/insertion-sort)
+
