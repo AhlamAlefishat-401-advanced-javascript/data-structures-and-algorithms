@@ -24,3 +24,7 @@ Fifo Animal Shelter| [fifo-animal-shelter](https://github.com/AhlamAlefishat-401
 Tree| [tree](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/tree)
 ----------------- | -----------------------
 Fizz Buzz Tree | [fizz-buzz-tree](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/fizzBuzzTree)
+----------------- | -----------------------
+Merge sort | [merge-sort](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/merge-sort)
+----------------- | -----------------------
+

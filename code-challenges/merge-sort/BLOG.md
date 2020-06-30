@@ -64,4 +64,4 @@ ALGORITHM Merge(left, right, arr)
 
 # UML
   
-  
+ ![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/merge-sort.jpg) 
