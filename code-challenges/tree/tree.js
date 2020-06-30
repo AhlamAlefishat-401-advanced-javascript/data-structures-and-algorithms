@@ -1,4 +1,5 @@
 'use strict';
+const queue=require('../stacksAndQueues/stacks-and-queues.js');
 
 class Node{
   constructor(value, left =null,right = null){
@@ -13,6 +14,10 @@ class BinaryTree{
   constructor(root=null){
     this.root=root;
   }
+  toString() {
+    return JSON.stringify(this);
+  }
+
    
   preOrder(){
     
@@ -51,9 +56,23 @@ class BinaryTree{
     _traversal(this.root);
     return result;
   }
+
+  breadthFirst(root){
+    const newQueue=new queue.Queue();
+    newQueue.enqueue(root);
+    while(newQueue.peek()){
+      root =newQueue.dequeue();
+      return root;
+    }
+    if(root.left !==null){
+      newQueue.enqueue(root.left);
+    }
+    if(root.right !==null){
+      newQueue.enqueue(root.right);
+    }
+
+  }
 }
-
-
 class BinarySearchTree{
   constructor(){
     this.root=null;
@@ -113,31 +132,32 @@ class BinarySearchTree{
   }
 }
 
-const one = new Node(1);
-const two = new Node(2);
-const three = new Node(3);
-const four = new Node(4);
-const five = new Node(5);
-const six = new Node(6);
+const one = new Node(2);
+const two = new Node(7);
+const three = new Node(5);
+const four = new Node(2);
+const five = new Node(6);
+const six = new Node(9);
+const seven= new Node(5);
+const eight = new Node(11);
+const nine= new Node(4);
 
 
-one.right=three;
+
 one.left=two;
+one.right=three;
 
-three.right=four;
-three.left=five;
+two.left=four;
+two.right=five;
+five.left=seven;
+five.right=eight;
 
-two.left=six;
+three.right=six;
+six.left=nine;
 
 
 const binaryTree = new BinaryTree(one);
-console.log(binaryTree.postOrder());
 
-const binarySearchTree = new BinarySearchTree();
-binarySearchTree.add(40);
-binarySearchTree.add(15);
-binarySearchTree.add(70);
-binarySearchTree.add(23);
-console.log(binarySearchTree.toString());
-console.log(binarySearchTree.contains(40));
 
+console.log(binaryTree.breadthFirst(2));
+console.log(binaryTree.toString());

@@ -36,14 +36,7 @@ class Stack{
   }
   
 }
-const stack = new Stack();
-console.log('empty stack?',stack.isEmpty());
-console.log(stack.push(3));
-console.log(stack.push(4));
-console.log('top node on stack',stack.peek());
-console.log(stack.isEmpty());
-console.log(stack.pop());
-console.log(stack.isEmpty());
+
 
 class Queue{
   constructor(){
@@ -71,14 +64,6 @@ class Queue{
   }
 
 }
-const queue = new Queue();
-console.log('empty queue?',queue.isEmpty());
-console.log(queue.enqueue(3));
-console.log(queue.enqueue(7));
-console.log('front node on queue',queue.peek());
-console.log(queue.isEmpty());
-console.log(queue.dequeue());
-console.log(queue.isEmpty());
 
 
 module.exports={
