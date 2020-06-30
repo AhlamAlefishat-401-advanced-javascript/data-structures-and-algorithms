@@ -31,4 +31,4 @@ time => O(n^2) because I'm using two loops.
 - Using a while loop to shift the values depend on the sorting type.
 
 ## UML
-- ![](../assets/insertion.jpg)
+- ![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/insertion-sort.jpg)
