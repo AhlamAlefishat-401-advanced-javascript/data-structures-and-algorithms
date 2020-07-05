@@ -11,8 +11,12 @@
 - Classes are used with while loop and if condition.
 
 ### Big O
-- Time: O(1) :
-- Space: O(n) :
+- Time: O(1) 
+- Space: O(n)
+
+- add, Time: O(1), Space: O(n)
+- get, Time: O(1), Space: O(n)
+- contains, Time: O(1), Space: O(1) 
 
 ### Solution
 ![](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/hashtable.jpg)
