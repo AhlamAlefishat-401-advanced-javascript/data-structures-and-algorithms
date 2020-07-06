@@ -34,5 +34,5 @@ Quick sort | [quick-sort](https://github.com/AhlamAlefishat-401-advanced-javascr
 Hashtable | [hashtable](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/hashtable)
 ----------------- | -----------------------
 Repeated Word |[Repeated-word](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/repeatedWord)
------------------ | -----------------------
-
+----------------- | ------------------------
+Tree Intersection | [Tree Intersection](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/treeIntersection)
