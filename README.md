@@ -32,3 +32,7 @@ Merge sort | [merge-sort](https://github.com/AhlamAlefishat-401-advanced-javascr
 Quick sort | [quick-sort](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/quick-sort)
 ----------------- | -----------------------
 Hashtable | [hashtable](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/hashtable)
+----------------- | -----------------------
+Repeated Word |[Repeated-word](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/repeatedWord)
+----------------- | -----------------------
+
