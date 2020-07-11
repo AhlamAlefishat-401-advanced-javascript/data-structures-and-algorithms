@@ -36,3 +36,8 @@ Hashtable | [hashtable](https://github.com/AhlamAlefishat-401-advanced-javascrip
 Repeated Word |[Repeated-word](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/repeatedWord)
 ----------------- | ------------------------
 Tree Intersection | [Tree Intersection](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/treeIntersection)
+----------------- | ------------------------
+Left join | [Left-join] (AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/leftJoin)
+----------------- | ------------------------
+Graph | [graph](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/graph)
+----------------- | ------------------------
