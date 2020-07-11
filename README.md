@@ -37,7 +37,7 @@ Repeated Word |[Repeated-word](https://github.com/AhlamAlefishat-401-advanced-ja
 ----------------- | ------------------------
 Tree Intersection | [Tree Intersection](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/treeIntersection)
 ----------------- | ------------------------
-Left join | [Left-join] (AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/leftJoin)
+Left join | [Left-join](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/leftJoin)
 ----------------- | ------------------------
 Graph | [graph](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/graph)
 ----------------- | ------------------------
