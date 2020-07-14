@@ -95,33 +95,33 @@ class Graph {
 
   
 }
-const graph = new Graph();
-let vertex1 = new Vertex('Pandora');
-let vertex2 = new Vertex('Arendelle');
-let vertex3 = new Vertex('Metroville');
-let vertex4 = new Vertex('Monstroplolis');
-let vertex5 = new Vertex('Narnia');
-let vertex6 = new Vertex('Naboo');
+// const graph = new Graph();
+// let vertex1 = new Vertex('Pandora');
+// let vertex2 = new Vertex('Arendelle');
+// let vertex3 = new Vertex('Metroville');
+// let vertex4 = new Vertex('Monstroplolis');
+// let vertex5 = new Vertex('Narnia');
+// let vertex6 = new Vertex('Naboo');
 
-graph.addNode(vertex1);
-graph.addNode(vertex2);
-graph.addNode(vertex3);
-graph.addNode(vertex4);
-graph.addNode(vertex5);
-graph.addNode(vertex6);
+// graph.addNode(vertex1);
+// graph.addNode(vertex2);
+// graph.addNode(vertex3);
+// graph.addNode(vertex4);
+// graph.addNode(vertex5);
+// graph.addNode(vertex6);
 
-graph.addEdge(vertex1, vertex2);
-graph.addEdge(vertex2, vertex3);
-graph.addEdge(vertex2, vertex4);
-graph.addEdge(vertex3, vertex4);
-graph.addEdge(vertex3, vertex5);
-graph.addEdge(vertex3, vertex6);
-graph.addEdge(vertex4, vertex6);
-graph.addEdge(vertex5, vertex6);
+// graph.addEdge(vertex1, vertex2);
+// graph.addEdge(vertex2, vertex3);
+// graph.addEdge(vertex2, vertex4);
+// graph.addEdge(vertex3, vertex4);
+// graph.addEdge(vertex3, vertex5);
+// graph.addEdge(vertex3, vertex6);
+// graph.addEdge(vertex4, vertex6);
+// graph.addEdge(vertex5, vertex6);
 
-let result = graph.getNodes();
-console.log(result);
-console.log(graph.size());
-console.log(graph);
+// let result = graph.getNodes();
+// console.log(result);
+// console.log(graph.size());
+// console.log(graph);
 
 module.exports = {Vertex, Edge, Graph};
