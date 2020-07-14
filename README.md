@@ -37,10 +37,12 @@ Repeated Word |[Repeated-word](https://github.com/AhlamAlefishat-401-advanced-ja
 ----------------- | ------------------------
 Tree Intersection | [Tree Intersection](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/treeIntersection)
 ----------------- | ------------------------
-Left join | [Left-join](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/leftJoin)
+Left join | [link](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/leftJoin)
 ----------------- | ------------------------
-Graph | [graph](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/graph)
+Graph | [link](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/graph)
 ----------------- | ------------------------
-Breadth First | [Breadth First](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/breadthFirst%20)
+Breadth First | [link](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/breadthFirst%20)
 ----------------- | ------------------------
-getEdge | [getEdge](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/getEdge)
+getEdge | [link](AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/getEdge)
+----------------- | ------------------------
+Depth first |[link](https://github.com/AhlamAlefishat-401-advanced-javascript/data-structures-and-algorithms/tree/master/code-challenges/depthFirst)
